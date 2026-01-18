@@ -121,7 +121,6 @@ export function LoginModal({ open, onOpenChange, onSuccess }) {
                 : "শুরু করতে একটি অ্যাকাউন্ট তৈরি করুন"}
           </DialogDescription>
         </DialogHeader>
-
         <form onSubmit={handleSubmit} className="space-y-4">
           {!isLogin && (
             <div className="space-y-2">
